@@ -59,7 +59,7 @@ header nav ul li:last-of-type a {
 }
 
 .main_banner {
-    background-image: url("/images/IMAGE.jpg");
+    background-image: url("../images/IMAGE.jpg");
     background-size: cover;
     height: 90.2vh;
     display: flex;
