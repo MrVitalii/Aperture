@@ -352,7 +352,6 @@ header nav ul li:last-of-type a {
 
 .clients .container {
     color: #FFFFFF;
-    max-width: 441px;
 }
 
 .clients h6 {
@@ -373,6 +372,16 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     text-align: center;
 }
+.clients .d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients ul{
+    margin-top: 100px;
+
+}
 
 .clients li{
     font-family: 'Poppins', sans-serif;
@@ -380,8 +389,8 @@ header nav ul li:last-of-type a {
     line-height: 12px;
     color: white;
     list-style: none;
-    justify-content: space-between;
-
+    display: flex;
+    align-items: center;
 }
 .clients li:before {
     content: "";
@@ -390,6 +399,7 @@ header nav ul li:last-of-type a {
     height: 30px;
     margin-right: 109px;
     color: white;
+    position: relative;
 }
 
 .clients li:nth-child(2):before {
@@ -397,6 +407,7 @@ header nav ul li:last-of-type a {
     width: 128px;
     height: 78px;
     color: white;
+    margin-right: 109px;
 }
 
 .clients li:nth-child(3):before {
@@ -404,6 +415,7 @@ header nav ul li:last-of-type a {
     width: 128px;
     height: 20px;
     color: white;
+    margin-right: 109px;
 }
 
 .clients li:nth-child(4):before {
@@ -411,6 +423,7 @@ header nav ul li:last-of-type a {
     width: 128px;
     height: 36px;
     color: white;
+    margin-right: 109px;
 }
 
 .clients li:last-of-type:before {
