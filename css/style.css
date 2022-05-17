@@ -348,10 +348,11 @@ header nav ul li:last-of-type a {
     display: flex;
     align-items: center;
     padding-bottom: 71px;
-}
 
+}
 .clients .container {
     color: #FFFFFF;
+    max-width: 1200px;
 }
 
 .clients h6 {
@@ -372,15 +373,8 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     text-align: center;
 }
-.clients .d_flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .clients ul{
     margin-top: 100px;
-
 }
 
 .clients li{
