@@ -260,7 +260,7 @@ header nav ul li:last-of-type a {
 /*section 3*/
 
 .fuji {
-    background-image: url("../image/japan.jpg");
+    background-image: url("../image/Japan.jpg");
     background-size: cover;
     height: 600px;
     display: flex;
