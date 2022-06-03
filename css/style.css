@@ -431,10 +431,11 @@ header nav ul li:last-of-type a {
 .owl-dots{
     margin-left: 478px;
 }
+
 .owl-dots .owl-dot span{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
     background-color: white;
     border-radius: 50%;
     margin: 10px;
@@ -442,13 +443,14 @@ header nav ul li:last-of-type a {
 }
 
 .owl-dots .owl-dot span:hover{
-    background: crimson;
-
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px white;
 }
 
 
 .owl-dots .owl-dot.active span{
-    transform: scale(1.5);
+    transform: scale(1.6);
     opacity: 1;
 }
 
