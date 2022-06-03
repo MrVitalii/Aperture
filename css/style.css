@@ -352,7 +352,7 @@ header nav ul li:last-of-type a {
 
 .clients .container {
     color: #FFFFFF;
-    max-width: 1200px;
+    max-width: 1120px;
 }
 
 .clients h6 {
@@ -427,6 +427,29 @@ header nav ul li:last-of-type a {
     width: 128px;
     height: 32px;
     color: white;
+}
+.owl-dots{
+    margin-left: 478px;
+}
+.owl-dots .owl-dot span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    opacity: 10;
+}
+
+.owl-dots .owl-dot span:hover{
+    background: crimson;
+
+}
+
+
+.owl-dots .owl-dot.active span{
+    transform: scale(1.5);
+    opacity: 1;
 }
 
 /*section 6*/
